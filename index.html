@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Tell us something positive that happened with you today.</h2>
+    <div class="form">
+        <form action="">
+            Name:&nbsp;<input type="text" name="name" placeholder="enter your name" required><br><br>
+            Email:&nbsp;<input type="email" name="email" placeholder="enter your email"><br><br>
+            On a scale of 1-10,how good was it?:&nbsp;<input type="text" name="number" placeholder="enter your number between 1-10"><br><br>
+            Where did it happen:<select name="event">
+                <option value="home" >At home</option>
+                <option value="school" >At school</option>
+                <option value="college" >At college</option>
+                <option value="publicplace" >At public place</option>
+            </select><br><br>
+            <label for="radio">At what time of day did it happen?</label><br>
+            <input type="radio"name="time" id="radio" value="Morning" checked="checked"/>
+            Morning<br>
+            <input type="radio" name="time" value="Afternoon" /> Afternoon<br>
+            <input type="radio" name="time" value="Evening" /> Evening<br>
+            <input type="radio" name="time" value="Night" /> Night<br>
+            <br>
+            What emotions did you experianced?(select all that apply):<br>
+            <input type="checkbox" name="exp" value="Excited">Excited<br>
+            <input type="checkbox" name="exp" value="Humbled">Humbled<br>
+            <input type="checkbox" name="exp" value="Elated">Elated<br>
+            <input type="checkbox" name="exp" value="loved">Loved<br>
+            <input type="checkbox" name="exp" value="Enthusiastic">Enthusiastic<br><br>
+            Please describe your positive experiance:<textarea name="textarea" rows="4" cols="50" placeholder="enter your experiance here."></textarea>
+            <br><br>
+            <button id="submit">Submit</button>
+
+        </form>
+        
+            
+            
+            
+        
+
+    </div>
+</div>
+</body>
+</html>
